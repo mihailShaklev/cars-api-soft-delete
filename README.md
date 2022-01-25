@@ -14,7 +14,7 @@ The project is created with Django REST framework. For all users the API gives r
 2. permissions.py - contains two custom permissions
 * IsOwnerOrReadOnly - custom permission to only allow owners of a car object to edit it
 * IsUserOrReadOnly - custom permission to only allow owners of a profile to edit it
-3.serializers.py - contains the serializers of the models
+3. serializers.py - contains the serializers of the models
 * UserSerializer
 * UserCarSerializer
 * CarBrandSerializer
