@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +26,7 @@ SECRET_KEY = 'zd%e+wsmmni*dij#49em!z)a=d-p)a4g4h)0q$%v_fb!hk54(o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ide-12493fef72c148b197921fa560fad4ad-8080.cs50.ws']
+ALLOWED_HOSTS = ['cars-api-soft-delete.herokuapp.com','ide-12493fef72c148b197921fa560fad4ad-8080.cs50.ws']
 
 
 # Application definition
