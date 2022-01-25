@@ -28,6 +28,7 @@ dj-database-url==0.5.0
 Django==3.1.5
 django-markdown==0.8.4
 django-markdown-2==2.0.0
+djangorestframework==3.11.2
 docutils==0.15.2
 EditorConfig==0.12.3
 filelock==3.0.12
