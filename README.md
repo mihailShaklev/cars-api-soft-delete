@@ -32,3 +32,8 @@ The project is created with Django REST framework. For all users the API gives r
 1. urls.py
 
 ## URLs with filters
+The application allows custom typed urls with filters.
+Users can be filtered by username and email as follows:
+
+https://example.com/users/?username=shosho
+https://example.com/users/?email=shosho@gmail.com
