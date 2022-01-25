@@ -3,7 +3,8 @@
 The project is created with Django REST framework. For all users the API gives read-only access to lists of Cars, Users, Car brands and Car models. Users who are logged in can edit their own profiles and create Car, Car brands and Car models objects. Users can navigate between the objects through links.
 
 ## Project files:
-### accounts app:
+
+### accounts:
 1. models.py - contains all models
 * User
 * UserCar
@@ -20,3 +21,12 @@ The project is created with Django REST framework. For all users the API gives r
 * CarBrandSerializer
 * CarModelSerializer
 * RegisterUserSerializer
+4. views.py 
+* UserViewSet
+* UserCarViewSet
+* CarBrandViewSet
+* CarModelViewSet
+* RegisterUserView
+
+### cars:
+1. urls.py
