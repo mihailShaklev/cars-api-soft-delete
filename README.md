@@ -30,3 +30,5 @@ The project is created with Django REST framework. For all users the API gives r
 
 ### cars:
 1. urls.py
+
+## URLs with filters
