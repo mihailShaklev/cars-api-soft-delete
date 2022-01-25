@@ -35,5 +35,21 @@ The project is created with Django REST framework. For all users the API gives r
 The application allows custom typed urls with filters.
 Users can be filtered by username and email as follows:
 
-* https://example.com/users/?username=shosho
-* https://example.com/users/?email=shosho@gmail.com
+* /users/?username=shosho
+* /users/?email=shosho@gmail.com
+
+Cars can be filtered by user, car_brand, car_model, first_reg, odo, created_at for example:
+
+* /cars/?user__username=shosho
+* /cars/?car_brand__name=shosho
+* /cars/?first_reg__range=2020-02-04,2020-11-02
+
+Car brands can be filtered by name:
+* /brands/?name=BMW
+
+Car models can be filtered by car_brand and name:
+* /models/?name=318i
+* /models/?car_brand__name=318i
+
+
+
