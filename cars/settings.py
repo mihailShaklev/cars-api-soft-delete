@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'zd%e+wsmmni*dij#49em!z)a=d-p)a4g4h)0q$%v_fb!hk54(o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['cars-api-soft-delete.herokuapp.com','ide-12493fef72c148b197921fa560fad4ad-8080.cs50.ws']
 
