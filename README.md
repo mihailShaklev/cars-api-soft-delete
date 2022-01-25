@@ -4,10 +4,10 @@ The project is created with Django REST framework. For all users the API gives r
 
 ## Project files:
 ### accounts app:
-1.models.py - contains all models
-*User
-*UserCar
-*CarBrand
-*CarModel
-*SoftDeleteModel - inherited by the other models in order to handle the soft delete functionality
-*SoftDeleteManager - changes the behavior of the standard Manager - filters out the soft deleted objects
+1. models.py - contains all models
+* User
+* UserCar
+* CarBrand
+* CarModel
+* SoftDeleteModel - inherited by the other models in order to handle the soft delete functionality
+* SoftDeleteManager - changes the behavior of the standard Manager - filters out the soft deleted objects
